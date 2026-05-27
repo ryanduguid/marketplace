@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-banking-sector",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a bank, neobank, payment institution, e-money institution, or regulated financial holding company asks about accounting, regulatory capital, or tax issues specific to financial institutions. Trigger on phrases like \"bank tax\", \"bank levy\", \"IRB approach\", \"standardised approach\", \"IFRS 9 ECL\", \"FRTB\", \"Basel III\", \"Basel IV\", \"CRR/CRD\", \"Prudential regulation\", \"PRA\", \"ECB ",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

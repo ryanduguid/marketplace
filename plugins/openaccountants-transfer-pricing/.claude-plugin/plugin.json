@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-transfer-pricing",
+  "version": "1.0.0",
+  "description": "OECD-aligned transfer pricing rules — master file, local file, CbCR, intercompany loans, IP licensing, services. Covers documentation thresholds, methods, and audit defence across jurisdictions.",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

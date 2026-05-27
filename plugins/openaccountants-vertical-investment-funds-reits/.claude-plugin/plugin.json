@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-investment-funds-reits",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a regulated investment fund, hedge fund, private equity fund, real estate investment trust (REIT), UCITS, AIF, mutual fund, or fund manager asks about sector-specific tax. Trigger on phrases like \"UCITS tax\", \"AIFMD\", \"RAIF\", \"SIF\", \"SICAR\", \"FCP\", \"FCPR\", \"SLP\", \"ELTIF\", \"PE fund\", \"carried interest tax\", \"carry\", \"promote\", \"GP / LP allocation\", \"K-1\", \"PFIC\", \"QEF electi",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

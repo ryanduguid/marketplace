@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vat-gst",
+  "version": "1.0.0",
+  "description": "VAT, GST, sales tax, and e-invoicing across jurisdictions — registration thresholds, reverse charge, OSS/IOSS, place of supply, real-time e-reporting.",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-shipping-aviation-tonnage-tax",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a shipping company, vessel operator, ship owner, ship manager, or aviation lessor / airline asks about sector-specific tax regimes. Trigger on phrases like \"tonnage tax\", \"Greek tonnage tax\", \"Cyprus tonnage tax\", \"Malta tonnage tax\", \"UK tonnage tax\", \"Norwegian shipping regime\", \"Dutch tonnage tax\", \"Singapore MSI\", \"Hong Kong tonnage tax\", \"qualifying shipping income\", \"",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

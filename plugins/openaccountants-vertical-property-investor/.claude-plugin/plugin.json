@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-property-investor",
+  "version": "1.0.0",
+  "description": "Industry vertical for property investors including residential landlords, short-term rental operators (Airbnb/Booking.com), commercial property investors, and property developers. Loaded alongside any country skill to provide industry-specific classification guidance for rental income, mortgage interest treatment, capital vs revenue repairs, and property-specific deductions. Trigger phrases — land",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

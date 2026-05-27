@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants",
+  "version": "1.0.0",
+  "description": "The base OpenAccountants plugin — verified tax & accounting skills for 190+ jurisdictions, every answer linked to a named licensed accountant. 11 tools including a real AI-to-verifier handoff.",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

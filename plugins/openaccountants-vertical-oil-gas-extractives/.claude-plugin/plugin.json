@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-oil-gas-extractives",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a producer, refiner, miner, oilfield services company, midstream operator, or LNG developer asks about sector-specific tax and accounting. Trigger on phrases like \"petroleum revenue tax\", \"PRT\", \"ring-fence corporation tax\", \"RFCT\", \"supplementary charge\", \"energy profits levy\", \"EPL\", \"OBPS\", \"carbon levy\", \"EU Solidarity Contribution\", \"windfall tax energy\", \"Norwegian sp",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

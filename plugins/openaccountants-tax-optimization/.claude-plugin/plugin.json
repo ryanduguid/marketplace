@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-tax-optimization",
+  "version": "1.0.0",
+  "description": "Planning strategies — residency choice, IP holdings, R&D credits, patent boxes, restructuring, year-end positioning. Covers the legitimate end of optimisation; flags the audit-flash-point edge cases.",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

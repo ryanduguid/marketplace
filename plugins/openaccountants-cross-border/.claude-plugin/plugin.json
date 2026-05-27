@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-cross-border",
+  "version": "1.0.0",
+  "description": "Treaty positions, permanent establishment, GILTI, FDII, BEAT, Pillar Two, DAC6, FATCA/CRS, CBAM — for any business operating across borders.",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

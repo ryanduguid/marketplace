@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-saas-digital-products",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a SaaS company, digital platform, app developer, marketplace, or other digital-product business asks about sector-specific tax / accounting / cross-border issues. Trigger on phrases like \"SaaS revenue recognition\", \"ASC 606 SaaS\", \"IFRS 15 SaaS\", \"subscription revenue\", \"ARR\", \"MRR\", \"deferred revenue\", \"termed license vs subscription\", \"ASC 985-20 software\", \"SaaS sales ta",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

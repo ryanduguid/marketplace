@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-construction-sector",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a construction contractor, subcontractor, developer, or design-build firm asks about sector-specific tax / accounting. Trigger on phrases like \"construction industry scheme\", \"CIS\", \"CIS deduction\", \"reverse charge construction VAT\", \"domestic reverse charge construction services\", \"developer's relief\", \"long-term contract\", \"percentage of completion\", \"completed contract\",",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}

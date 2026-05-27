@@ -1,0 +1,18 @@
+{
+  "name": "openaccountants-vertical-charity-nonprofit",
+  "version": "1.0.0",
+  "description": "Use this skill whenever a charity, nonprofit, foundation, NGO, religious organisation, or social enterprise asks about accounting / tax / reporting specific to the nonprofit sector. Trigger on phrases like \"501(c)(3)\", \"private foundation\", \"public charity\", \"UBI\", \"unrelated business income\", \"Form 990\", \"Form 990-PF\", \"CIO\", \"Charity Commission\", \"FRS 102 SORP\", \"Charities SORP\", \"fund accountin",
+  "author": {
+    "name": "OpenAccountants",
+    "url": "https://openaccountants.com"
+  },
+  "homepage": "https://openaccountants.com/connect",
+  "repository": "https://github.com/openaccountants/marketplace",
+  "license": "MIT",
+  "keywords": [
+    "tax",
+    "accounting",
+    "openaccountants",
+    "mcp"
+  ]
+}
