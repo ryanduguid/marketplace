@@ -1,6 +1,5 @@
 {
   "name": "OpenAccountants",
-  "description": "Verified tax & accounting plugins for any AI agent. 190+ jurisdictions, every answer linked to a named licensed accountant.",
   "owner": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com",
@@ -11,8 +10,7 @@
       "name": "openaccountants",
       "source": "./plugins/openaccountants",
       "description": "Base plugin — verified tax & accounting skills for 190+ jurisdictions, with a named-verifier handoff.",
-      "category": "tax-accounting",
-      "recommended": true
+      "category": "tax-accounting"
     },
     {
       "name": "openaccountants-ar",
@@ -506,5 +504,8 @@
       "description": "OpenAccountants Shipping Aviation Tonnage Tax. 1 skill(s).",
       "category": "tax-accounting"
     }
-  ]
+  ],
+  "metadata": {
+    "description": "Verified tax & accounting plugins for any AI agent. 190+ jurisdictions (every country + US state + Canadian province), every answer linked to a named licensed accountant. 11 MCP tools including a real AI-to-verifier handoff that books you onto an accountant Calendly when you are ready to file."
+  }
 }
