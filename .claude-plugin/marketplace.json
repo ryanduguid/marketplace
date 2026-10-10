@@ -9,7 +9,7 @@
     {
       "name": "openaccountants",
       "source": "./plugins/openaccountants",
-      "description": "Base plugin — verified tax & accounting skills for 190+ jurisdictions, with a named-verifier handoff.",
+      "description": "Base plugin for OpenAccountants tax and accounting Guides via MCP. Check each Guide version's published review status.",
       "category": "tax-accounting"
     },
     {
@@ -111,7 +111,7 @@
     {
       "name": "openaccountants-mt",
       "source": "./plugins/openaccountants-mt",
-      "description": "OpenAccountants Malta — verified by Michael Cutajar, CPA (Malta). 11 skill(s).",
+      "description": "OpenAccountants Malta. Professional review varies by Guide version; check its published review status.",
       "category": "tax-accounting"
     },
     {
@@ -171,7 +171,7 @@
     {
       "name": "openaccountants-za",
       "source": "./plugins/openaccountants-za",
-      "description": "OpenAccountants South Africa — verified by Werner Britz, CA(SA). 3 skill(s).",
+      "description": "OpenAccountants South Africa. Professional review varies by Guide version; check its published review status.",
       "category": "tax-accounting"
     },
     {
@@ -506,6 +506,6 @@
     }
   ],
   "metadata": {
-    "description": "Verified tax & accounting plugins for any AI agent. 190+ jurisdictions (every country + US state + Canadian province), every answer linked to a named licensed accountant. 11 MCP tools including a real AI-to-verifier handoff that books you onto an accountant Calendly when you are ready to file."
+    "description": "Tax and accounting plugins that route to OpenAccountants Guides via MCP. The library includes accountant-reviewed versions and source-cited drafts; check each Guide version's published review status."
   }
 }

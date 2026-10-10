@@ -1,8 +1,8 @@
 # OpenAccountants — Global
 
-The base OpenAccountants plugin — verified tax & accounting skills for 190+ jurisdictions, every answer linked to a named licensed accountant. 11 tools including a real AI-to-verifier handoff.
+Route tax and accounting questions to OpenAccountants Guides via MCP. Check each Guide version's published review status before relying on it.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 50 verified skill(s) for this scope.
+Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -39,9 +39,9 @@ claude plugin marketplace add openaccountants/marketplace
 
 _…and 38 more — run `/skills` after installing._
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

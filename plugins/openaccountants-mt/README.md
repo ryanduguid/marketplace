@@ -1,12 +1,12 @@
 # OpenAccountants — Malta
 
-Tax and accounting skills for Malta — 11 verified skill(s) covering income tax, VAT/GST, payroll, formation, bookkeeping, and cross-border issues. Country-verified by Michael Cutajar, CPA (Malta). Powered by the OpenAccountants MCP server.
+Tax and accounting Guides for Malta via the OpenAccountants MCP server. Coverage and professional review vary by Guide; check the fetched version's review status.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 11 verified skill(s) for this scope.
+Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
-## Verified by
+## Review provenance
 
-**Michael Cutajar, CPA (Malta)** — country-verified the skills in this pack.
+The pack's earlier metadata attributed review to **Michael Cutajar, CPA (Malta)**. Check the fetched Guide version's published review record for its reviewer and review date.
 
 ## Install
 
@@ -40,9 +40,9 @@ claude plugin marketplace add openaccountants/marketplace
 - `mt-estimated-tax`
 - `mt-rental-income`
 
-## License
+## Licence
 
-MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
+MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

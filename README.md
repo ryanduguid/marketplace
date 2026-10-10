@@ -1,8 +1,10 @@
 # OpenAccountants Marketplace
 
-**83 Claude Code plugins for tax & accounting — verified by named licensed accountants.**
+Claude Code plugins that route tax and accounting questions to OpenAccountants Guides via MCP.
 
-One install command gets you the full marketplace. Every plugin is a thin router to the [hosted OpenAccountants MCP server](https://www.openaccountants.com/api/mcp), which holds **1,889 verified skills across 190+ jurisdictions** and an **AI-to-verifier handoff** tool that books you onto a real accountant's Calendly when you're ready to file.
+Guides include accountant-reviewed versions and source-cited drafts. Check the [current catalogue](https://www.openaccountants.com/skills) and [review method](https://www.openaccountants.com/review-method) for each Guide's review status, reviewer, version and review date. Authorship or a jurisdiction lead's name does not establish professional review of every Guide version.
+
+One install command adds the marketplace. Each plugin routes to the [hosted OpenAccountants MCP server](https://www.openaccountants.com/api/mcp); the available Guides and their review status are published in the current catalogue. Use the `/review` command to request a professional review.
 
 ---
 
@@ -15,8 +17,8 @@ claude plugin marketplace add openaccountants/marketplace
 Then browse and install any plugin from the `/plugin` menu in Claude Code:
 
 ```
-/plugin install openaccountants-mt          # Malta (verified by Michael Cutajar, CPA)
-/plugin install openaccountants-za          # South Africa (verified by Werner Britz, CA(SA))
+/plugin install openaccountants-mt          # Malta; check each Guide's review status
+/plugin install openaccountants-za          # South Africa; check each Guide's review status
 /plugin install openaccountants-us-ca       # California
 /plugin install openaccountants-crypto-tax  # Crypto, cross-jurisdiction
 …
@@ -36,8 +38,7 @@ For **non-Claude-Code installs** (Claude.ai, ChatGPT, Cursor, Windsurf), see [op
 
 ### Jurisdiction plugins (60)
 
-One per country / US state with ≥3 verified skills. Each pack covers
-income tax, VAT/GST, payroll, formation, bookkeeping for that jurisdiction.
+Jurisdiction plugins scope the available Guides by country or US state. Coverage and professional review vary by Guide; check the current catalogue for the topic you need.
 
 Examples: `openaccountants-mt` · `openaccountants-de` · `openaccountants-us-ca` · `openaccountants-gb` · `openaccountants-jp` · `openaccountants-in` · `openaccountants-br` · `openaccountants-za` · `openaccountants-sg` · …
 
@@ -86,7 +87,7 @@ The plugins themselves are **light** — they're routers. The actual rules, rate
 
 - One source of truth across 83 plugins
 - Annual rate refreshes propagate instantly to every plugin
-- Verifier sign-offs flow through automatically
+- Inspect the fetched Guide's review record for its current version
 
 ---
 
@@ -114,9 +115,9 @@ This rebuilds the plugin folders + `marketplace.json` from the current skill cat
 
 ---
 
-## License
+## Licence
 
-MIT for plugin code & manifests. Skill content is dual-licensed — see [openaccountants/openaccountants/LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md).
+MIT for this plugin wrapper. Guide content has separate terms from this wrapper. The source repository's [licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) describes the source-available OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases. Check the terms for the Guide version you use.
 
 ## Not tax advice
 
