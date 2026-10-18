@@ -43,7 +43,7 @@ _…and 6 more — run `/skills` after installing._
 
 MIT for code; skill content is dual-licensed (see [LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md)).
 
-## Not tax advice
+## Review before filing
 
 Outputs are working papers, not filed returns. Have a qualified
 professional review before filing. See

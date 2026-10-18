@@ -118,6 +118,6 @@ This rebuilds the plugin folders + `marketplace.json` from the current skill cat
 
 MIT for plugin code & manifests. Skill content is dual-licensed — see [openaccountants/openaccountants/LICENSE-ADDITIONAL.md](https://github.com/openaccountants/openaccountants/blob/main/LICENSE-ADDITIONAL.md).
 
-## Not tax advice
+## Review before filing
 
 Outputs are working papers, not filed returns. Use the `/review` command to route to a credentialed accountant before acting on anything.
