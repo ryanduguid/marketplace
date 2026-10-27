@@ -2,7 +2,7 @@
 
 Use this skill whenever a regulated investment fund, hedge fund, private equity fund, real estate investment trust (REIT), UCITS, AIF, mutual fund, or fund manager asks about sector-specific tax. Trigger on phrases like "UCITS tax", "AIFMD", "RAIF", "SIF", "SICAR", "FCP", "FCPR", "SLP", "ELTIF", "PE fund", "carried interest tax", "carry", "promote", "GP / LP allocation", "K-1", "PFIC", "QEF electi
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -28,7 +28,7 @@ claude plugin marketplace add openaccountants/marketplace
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

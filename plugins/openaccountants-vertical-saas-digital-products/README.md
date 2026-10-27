@@ -2,7 +2,7 @@
 
 Use this skill whenever a SaaS company, digital platform, app developer, marketplace, or other digital-product business asks about sector-specific tax / accounting / cross-border issues. Trigger on phrases like "SaaS revenue recognition", "ASC 606 SaaS", "IFRS 15 SaaS", "subscription revenue", "ARR", "MRR", "deferred revenue", "termed license vs subscription", "ASC 985-20 software", "SaaS sales ta
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -28,7 +28,7 @@ claude plugin marketplace add openaccountants/marketplace
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

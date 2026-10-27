@@ -1,7 +1,7 @@
 {
   "name": "openaccountants",
   "version": "1.0.0",
-  "description": "Route tax and accounting questions to OpenAccountants Guides via MCP. Check each Guide version's published review status before relying on it.",
+  "description": "Route tax and accounting questions to OpenAccountants skills via MCP. Check each skill version's published review status before relying on it.",
   "author": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com"

@@ -2,7 +2,7 @@
 
 Use this skill whenever a charity, nonprofit, foundation, NGO, religious organisation, or social enterprise asks about accounting / tax / reporting specific to the nonprofit sector. Trigger on phrases like "501(c)(3)", "private foundation", "public charity", "UBI", "unrelated business income", "Form 990", "Form 990-PF", "CIO", "Charity Commission", "FRS 102 SORP", "Charities SORP", "fund accountin
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -28,7 +28,7 @@ claude plugin marketplace add openaccountants/marketplace
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

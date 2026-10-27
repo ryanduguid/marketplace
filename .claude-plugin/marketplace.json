@@ -9,7 +9,7 @@
     {
       "name": "openaccountants",
       "source": "./plugins/openaccountants",
-      "description": "Base plugin for OpenAccountants tax and accounting Guides via MCP. Check each Guide version's published review status.",
+      "description": "Base plugin for OpenAccountants tax and accounting skills via MCP. Check each skill version's published review status.",
       "category": "tax-accounting"
     },
     {
@@ -111,7 +111,7 @@
     {
       "name": "openaccountants-mt",
       "source": "./plugins/openaccountants-mt",
-      "description": "OpenAccountants Malta. Professional review varies by Guide version; check its published review status.",
+      "description": "OpenAccountants Malta. Professional review varies by skill version; check its published review status.",
       "category": "tax-accounting"
     },
     {
@@ -171,7 +171,7 @@
     {
       "name": "openaccountants-za",
       "source": "./plugins/openaccountants-za",
-      "description": "OpenAccountants South Africa. Professional review varies by Guide version; check its published review status.",
+      "description": "OpenAccountants South Africa. Professional review varies by skill version; check its published review status.",
       "category": "tax-accounting"
     },
     {
@@ -506,6 +506,6 @@
     }
   ],
   "metadata": {
-    "description": "Tax and accounting plugins that route to OpenAccountants Guides via MCP. The library includes accountant-reviewed versions and source-cited drafts; check each Guide version's published review status."
+    "description": "Tax and accounting plugins that route to OpenAccountants skills via MCP. The library includes accountant-reviewed versions and source-cited drafts; check each skill version's published review status."
   }
 }

@@ -1,12 +1,12 @@
 # OpenAccountants — Malta
 
-Tax and accounting Guides for Malta via the OpenAccountants MCP server. Coverage and professional review vary by Guide; check the fetched version's review status.
+Tax and accounting skills for Malta via the OpenAccountants MCP server. Coverage and professional review vary by skill; check the fetched version's review status.
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Review provenance
 
-The pack's earlier metadata attributed review to **Michael Cutajar, CPA (Malta)**. Check the fetched Guide version's published review record for its reviewer and review date.
+The pack's earlier metadata attributed review to **Michael Cutajar, CPA (Malta)**. Check the fetched skill version's published review record for its reviewer and review date.
 
 ## Install
 
@@ -42,7 +42,7 @@ claude plugin marketplace add openaccountants/marketplace
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

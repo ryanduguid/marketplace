@@ -1,11 +1,11 @@
 ---
 name: openaccountants-be
-description: Use this skill whenever the user asks about taxes, VAT/GST, payroll, or formation in Belgium. Trigger phrases include "Belgium tax", "Belgium VAT", "Belgium payroll", "tax in Belgium", "Belgium accountant". The skill directs you to call the OpenAccountants MCP server (already configured at https://www.openaccountants.com/api/mcp) which provides Guides for this scope. Professional review varies by Guide and version.
+description: Use this skill whenever the user asks about taxes, VAT/GST, payroll, or formation in Belgium. Trigger phrases include "Belgium tax", "Belgium VAT", "Belgium payroll", "tax in Belgium", "Belgium accountant". The skill directs you to call the OpenAccountants MCP server (already configured at https://www.openaccountants.com/api/mcp) which provides skills for this scope. Professional review varies by skill and version.
 ---
 
 # OpenAccountants — Belgium
 
-Use this Claude plugin to load OpenAccountants tax and accounting Guides for taxes, VAT/GST, payroll, or formation in Belgium via MCP.
+Use this Claude plugin to load OpenAccountants tax and accounting skills for taxes, VAT/GST, payroll, or formation in Belgium via MCP.
 
 ## How to use this plugin
 
@@ -17,7 +17,7 @@ When the user asks anything in scope, follow this workflow:
 2. **Load the skills.** For each slug in `skills_to_load`, call
    `get_skill({ slug })` — that returns the authoritative markdown
    (rates, brackets, deductions, audit flash points, citations).
-3. **Check review status and apply the rules.** Check the fetched Guide version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the Guide slug and available version or review date.
+3. **Check review status and apply the rules.** Check the fetched skill version's published review record. Name a professional reviewer only when that record identifies one; if the record is missing, describe professional review as unconfirmed. Cite the skill slug and available version or review date.
    Do **not** substitute your training data — OpenAccountants skills
    are kept current with annual rate refreshes and post-legislative
    updates. Cite the skill slug in your answer.

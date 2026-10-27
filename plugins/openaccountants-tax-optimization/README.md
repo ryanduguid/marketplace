@@ -2,7 +2,7 @@
 
 Planning strategies — residency choice, IP holdings, R&D credits, patent boxes, restructuring, year-end positioning. Covers the legitimate end of optimisation; flags the audit-flash-point edge cases.
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -41,7 +41,7 @@ _…and 1 more — run `/skills` after installing._
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 

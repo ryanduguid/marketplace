@@ -2,7 +2,7 @@
 
 Industry vertical for professional service providers including management consultants, lawyers, architects, accountants, coaches, and advisory professionals. Loaded alongside any country skill to provide industry-specific classification guidance for service-based revenue, WIP accounting, client disbursements, and trust account separation. Trigger phrases — consultant, management consultant, busine
 
-Guides include accountant-reviewed versions and source-cited drafts. Check each fetched Guide version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
+Skills include accountant-reviewed versions and source-cited drafts. Check each fetched skill version's review status, reviewer and review date in the [current catalogue](https://www.openaccountants.com/skills).
 
 ## Install
 
@@ -28,7 +28,7 @@ claude plugin marketplace add openaccountants/marketplace
 
 ## Licence
 
-MIT for plugin code. Guide content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the OA Guide License, commercial options, third-party copyleft exceptions and prior AGPL releases.
+MIT for plugin code. Skill content has separate terms: see the [source repository's licensing document](https://github.com/openaccountants/openaccountants/blob/main/LICENSING.md) for the Open Accountants Skills License, commercial options, third-party copyleft exceptions and prior AGPL releases.
 
 ## Not tax advice
 
