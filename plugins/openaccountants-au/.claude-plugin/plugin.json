@@ -1,12 +1,13 @@
 {
   "name": "openaccountants-au",
   "version": "1.0.0",
-  "description": "Tax and accounting skills for Australia — 13 verified skill(s) covering income tax, VAT/GST, payroll, formation, bookkeeping, and cross-border issues. Powered by the OpenAccountants MCP server.",
+  "description": "Tax and accounting skills for Australia via the OpenAccountants MCP server. This pack lists 13 skill IDs; coverage and professional review vary by skill and version.",
   "author": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com"
   },
   "homepage": "https://openaccountants.com/connect",
+  "privacyPolicyUrl": "https://www.openaccountants.com/privacy",
   "repository": "https://github.com/openaccountants/marketplace",
   "license": "MIT",
   "keywords": [

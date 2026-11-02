@@ -1,13 +1,11 @@
 # OpenAccountants — Cross-Border & International Tax
 
-Treaty positions, permanent establishment, GILTI, FDII, BEAT, Pillar Two, DAC6, FATCA/CRS, CBAM — for any business operating across borders.
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 27 verified skill(s) for this scope.
+This snapshot advertised **27 skills** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-cross-border
+claude plugin install openaccountants-cross-border --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -21,6 +19,8 @@ claude plugin marketplace add openaccountants/marketplace
 - `/start` — scope a workflow and load the right skills
 - `/skills` — list every skill in scope
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 
@@ -37,7 +37,7 @@ claude plugin marketplace add openaccountants/marketplace
 - `eu-social-security-coordination`
 - `fatca-crs-automatic-exchange`
 
-_…and 15 more — run `/skills` after installing._
+_The snapshot advertised 15 more; run `/skills` after installing to discover the current catalogue._
 
 ## License
 

@@ -9,7 +9,7 @@
     {
       "name": "openaccountants",
       "source": "./plugins/openaccountants",
-      "description": "Base plugin — verified tax & accounting skills for 190+ jurisdictions, with a named-verifier handoff.",
+      "description": "Base plugin for the advertised 190+ jurisdiction scope. Check each fetched version's applicability, sources and published review record.",
       "category": "tax-accounting"
     },
     {
@@ -506,6 +506,6 @@
     }
   ],
   "metadata": {
-    "description": "Verified tax & accounting plugins for any AI agent. 190+ jurisdictions (every country + US state + Canadian province), every answer linked to a named licensed accountant. 11 MCP tools including a real AI-to-verifier handoff that books you onto an accountant Calendly when you are ready to file."
+    "description": "Tax and accounting plugins for the advertised 190+ jurisdiction scope. Coverage and professional review vary by skill and version. Discover the current MCP tools and use review-sharing tools only on request with agreement to share the specified information."
   }
 }

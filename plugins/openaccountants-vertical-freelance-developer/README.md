@@ -1,13 +1,11 @@
 # OpenAccountants — Freelance Developer (vertical)
 
-Industry vertical for freelance software developers, web developers, app developers, and SaaS builders. Loaded alongside any country skill to provide industry-specific classification guidance, deduction patterns, and revenue recognition rules. Trigger phrases — software developer, web developer, app developer, SaaS, freelance coder, indie hacker, freelance programmer, mobile app developer, full-st
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 1 verified skill(s) for this scope.
+This snapshot advertised **1 skill** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-vertical-freelance-developer
+claude plugin install openaccountants-vertical-freelance-developer --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -19,8 +17,10 @@ claude plugin marketplace add openaccountants/marketplace
 ## Slash commands
 
 - `/start` — scope a workflow and load the right skills
-- `/skills` — list every skill in scope
+- `/skills` — list this pack's industry skill and discover related skills on request
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 

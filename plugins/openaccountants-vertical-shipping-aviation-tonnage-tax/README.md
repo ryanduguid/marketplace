@@ -1,13 +1,11 @@
 # OpenAccountants — Shipping Aviation Tonnage Tax (vertical)
 
-Use this skill whenever a shipping company, vessel operator, ship owner, ship manager, or aviation lessor / airline asks about sector-specific tax regimes. Trigger on phrases like "tonnage tax", "Greek tonnage tax", "Cyprus tonnage tax", "Malta tonnage tax", "UK tonnage tax", "Norwegian shipping regime", "Dutch tonnage tax", "Singapore MSI", "Hong Kong tonnage tax", "qualifying shipping income", "
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 1 verified skill(s) for this scope.
+This snapshot advertised **1 skill** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-vertical-shipping-aviation-tonnage-tax
+claude plugin install openaccountants-vertical-shipping-aviation-tonnage-tax --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -19,8 +17,10 @@ claude plugin marketplace add openaccountants/marketplace
 ## Slash commands
 
 - `/start` — scope a workflow and load the right skills
-- `/skills` — list every skill in scope
+- `/skills` — list this pack's industry skill and discover related skills on request
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 

@@ -1,13 +1,13 @@
 # OpenAccountants — Australia
 
-Tax and accounting skills for Australia — 13 verified skill(s) covering income tax, VAT/GST, payroll, formation, bookkeeping, and cross-border issues. Powered by the OpenAccountants MCP server.
+Tax and accounting skills for Australia via the OpenAccountants MCP server.
 
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 13 verified skill(s) for this scope.
+This pack lists 13 skill IDs. The live catalogue may contain more. Check each fetched version's jurisdiction, applicable period, sources and published review record; authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-au
+claude plugin install openaccountants-au --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -21,6 +21,8 @@ claude plugin marketplace add openaccountants/marketplace
 - `/start` — scope a workflow and load the right skills
 - `/skills` — list every skill in scope
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts.
 
 ## Skills in this pack
 

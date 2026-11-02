@@ -1,8 +1,8 @@
 # OpenAccountants Marketplace
 
-**83 Claude Code plugins for tax & accounting — verified by named licensed accountants.**
+**83 Claude Code plugins for tax and accounting. Coverage and professional review vary by skill and version.**
 
-One install command gets you the full marketplace. Every plugin is a thin router to the [hosted OpenAccountants MCP server](https://www.openaccountants.com/api/mcp), which holds **1,889 verified skills across 190+ jurisdictions** and an **AI-to-verifier handoff** tool that books you onto a real accountant's Calendly when you're ready to file.
+Each plugin routes to the [hosted OpenAccountants MCP server](https://www.openaccountants.com/api/mcp). The initial repository snapshot advertised **1,889 skills across 190+ jurisdictions**; the live catalogue can change. Check each fetched version's jurisdiction, applicable period, sources and published review record before applying it. Authorship or research verification does not establish professional sign-off.
 
 ---
 
@@ -15,8 +15,8 @@ claude plugin marketplace add openaccountants/marketplace
 Then browse and install any plugin from the `/plugin` menu in Claude Code:
 
 ```
-/plugin install openaccountants-mt          # Malta (verified by Michael Cutajar, CPA)
-/plugin install openaccountants-za          # South Africa (verified by Werner Britz, CA(SA))
+/plugin install openaccountants-mt          # Malta
+/plugin install openaccountants-za          # South Africa
 /plugin install openaccountants-us-ca       # California
 /plugin install openaccountants-crypto-tax  # Crypto, cross-jurisdiction
 …
@@ -36,8 +36,8 @@ For **non-Claude-Code installs** (Claude.ai, ChatGPT, Cursor, Windsurf), see [op
 
 ### Jurisdiction plugins (60)
 
-One per country / US state with ≥3 verified skills. Each pack covers
-income tax, VAT/GST, payroll, formation, bookkeeping for that jurisdiction.
+One per country / US state with ≥3 listed skills in the source snapshot. Topic
+and year coverage vary; check the fetched records for your question.
 
 Examples: `openaccountants-mt` · `openaccountants-de` · `openaccountants-us-ca` · `openaccountants-gb` · `openaccountants-jp` · `openaccountants-in` · `openaccountants-br` · `openaccountants-za` · `openaccountants-sg` · …
 
@@ -56,7 +56,7 @@ Cross-jurisdiction packs for users whose question is a *topic*, not a country.
 
 ### Vertical plugins (14)
 
-Industry-specific. Each covers the sector-specific accounting + cross-jurisdiction tax issues for that business type.
+Industry packs for sector-specific accounting and cross-jurisdiction tax questions. Check each fetched version's topic and period coverage.
 
 `saas-digital-products` · `ecommerce-seller` · `freelance-developer` · `content-creator` · `consultant-professional` · `property-investor` · `medical-professional` · `construction-sector` · `banking-sector` · `insurance-sector` · `investment-funds-reits` · `oil-gas-extractives` · `shipping-aviation-tonnage-tax` · `charity-nonprofit`
 
@@ -78,27 +78,27 @@ plugins/<slug>/
 ├── commands/                     # 3 slash commands per plugin
 │   ├── start.md                  # /start — scope your question
 │   ├── skills.md                 # /skills — list everything in scope
-│   └── review.md                 # /review — book a real accountant
+│   └── review.md                 # /review — request professional review
 └── README.md
 ```
 
 The plugins themselves are **light** — they're routers. The actual rules, rates, and computation logic live on the hosted MCP server, which means:
 
-- One source of truth across 83 plugins
-- Annual rate refreshes propagate instantly to every plugin
-- Verifier sign-offs flow through automatically
+- Plugin content is retrieved from the hosted service once the MCP connection loads
+- Hosted content can change independently of a plugin snapshot
+- Answers must preserve the fetched version's sources and published review status
 
 ---
 
-## The handoff is the differentiator
+## Request professional review
 
-Every plugin includes the `/review` slash command, which calls the MCP's `request_accountant_review` tool. When you're ready to file, the AI:
+The AU, base, topical and industry packs use the currently advertised `share_with_openaccountants` schema only when you ask for a person to check or do the work. The generator emits the same workflow. Other country packs are separate snapshots. The updated command:
 
-1. Captures your working paper (classified transactions, computations)
-2. Routes the request to the **named lead verifier** for your jurisdiction (e.g. Werner Britz CA(SA) for South Africa, Michael Cutajar CPA for Malta)
-3. Returns a Calendly link the user can book directly
+1. Explains that the complete working paper and contact details will be saved with OpenAccountants and its team notified, then obtains your agreement to share them
+2. Sends the complete working paper, jurisdiction, scenario and supplied email, with the schema's required anonymised note
+3. Presents the returned status and booking link without promising a named reviewer or a confirmed booking
 
-The verifier sees the scenario + the worksheet **before the call**. No client-accountant relationship until both sides sign an engagement letter.
+The tool call is free. Professional work is paid, with scope and fee agreed before work starts. A question about whether the AI's own answer is right calls for a recheck, not a review request. An uncertain send must be resolved before any retry. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ---
 
@@ -110,7 +110,19 @@ The marketplace is auto-generated from the [OpenAccountants source repo](https:/
 node scripts/generate.js
 ```
 
-This rebuilds the plugin folders + `marketplace.json` from the current skill catalogue. Plugins below the minimum skill threshold (`MIN_SKILLS_PER_PLUGIN = 3`) are skipped.
+The script reads the sibling `../openaccountants-push/packages` checkout and writes the generated files in `plugins/` and `.claude-plugin/marketplace.json`. It has no network or publication step. Record the source revision before regeneration and review membership and coverage-figure changes before applying them. Jurisdiction and topical packs below `MIN_SKILLS_PER_PLUGIN = 3` are skipped; vertical packs contain their single source skill.
+
+The generator reads scalar `name`, `jurisdiction`, `category` and `description` frontmatter, including quoted text and folded descriptions. It reports and skips Markdown documentation without frontmatter. It rejects unterminated frontmatter, missing names, unsupported values in those fields, duplicates and empty input before writing. It retains all IDs in each generated skill list and keeps unlisted folders and maintainer files.
+
+Run the isolated AU fixture checks and validate the generated marketplace with the installed Claude CLI:
+
+```bash
+node --check scripts/generate.js
+node --test scripts/generate.test.js
+claude plugin validate . --strict
+```
+
+The tests use temporary synthetic AU sources and do not regenerate this repository's catalogue. Validation reads local configuration; it does not install the plugin or exercise the hosted service.
 
 ---
 
@@ -120,4 +132,4 @@ MIT for plugin code & manifests. Skill content is dual-licensed — see [openacc
 
 ## Not tax advice
 
-Outputs are working papers, not filed returns. Use the `/review` command to route to a credentialed accountant before acting on anything.
+Outputs are working papers, not filed returns. Seek qualified professional review where needed before filing. `/review` sends information only after your request and agreement to share it.

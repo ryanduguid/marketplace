@@ -1,7 +1,7 @@
 {
   "name": "openaccountants",
   "version": "1.0.0",
-  "description": "The base OpenAccountants plugin — verified tax & accounting skills for 190+ jurisdictions, every answer linked to a named licensed accountant. 11 tools including a real AI-to-verifier handoff.",
+  "description": "Base plugin for the advertised 190+ jurisdiction scope. Check each fetched version's applicability, sources and published review record.",
   "author": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com"
@@ -14,5 +14,6 @@
     "accounting",
     "openaccountants",
     "mcp"
-  ]
+  ],
+  "privacyPolicyUrl": "https://www.openaccountants.com/privacy"
 }
