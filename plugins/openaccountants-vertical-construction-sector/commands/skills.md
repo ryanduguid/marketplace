@@ -1,8 +1,8 @@
 ---
 name: skills
-description: List every OpenAccountants skill in scope for this plugin.
+description: List this industry pack's skill ID and discover related skills on request.
 ---
 
-Call the `openaccountants` MCP `list_skills` tool.
+This industry pack lists `construction-sector`. Call `get_skill({ slug: "construction-sector" })` and show its returned description, jurisdiction, applicable period and review record. If it defers sections needed for the question, use the advertised `get_skill_sections` schema. Report an unavailable ID instead of substituting another industry.
 
-Format the result as a numbered list of slug + one-line description, grouped by category.
+If the user wants related skills, confirm their jurisdiction and topic, then use `start` with their intent and jurisdiction to discover relevant skill IDs. Explain that these are related workflow suggestions, rather than a complete industry catalogue. Check each fetched version's applicability before using it.

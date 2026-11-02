@@ -1,7 +1,7 @@
 {
   "name": "openaccountants-crypto-tax",
   "version": "1.0.0",
-  "description": "Crypto and digital-asset taxation across major jurisdictions — disposals, mining, staking, airdrops, NFT royalties, DeFi. Verified per jurisdiction by named accountants.",
+  "description": "Crypto and digital asset taxation across major jurisdictions: disposals, mining, staking, airdrops, NFT royalties and DeFi. Check each fetched version's applicability, sources and review record.",
   "author": {
     "name": "OpenAccountants",
     "url": "https://openaccountants.com"
@@ -14,5 +14,6 @@
     "accounting",
     "openaccountants",
     "mcp"
-  ]
+  ],
+  "privacyPolicyUrl": "https://www.openaccountants.com/privacy"
 }

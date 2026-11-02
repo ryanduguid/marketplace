@@ -1,34 +1,35 @@
 ---
 name: openaccountants-vertical-property-investor
-description: Use this skill whenever the user asks about property investor businesses. Trigger phrases include "Property Investor", "Property Investor tax", "Property Investor accounting". The skill is a thin router — it directs you to call the OpenAccountants MCP server (already configured at https://www.openaccountants.com/api/mcp) which holds 1 verified skill(s) for this scope.
+description: Use for property investor businesses. Trigger phrases include "Property Investor", "Property Investor tax", "Property Investor accounting". Route to the OpenAccountants MCP server and check each fetched version's applicable period, sources and review status.
 ---
 
 # OpenAccountants — Property Investor (vertical)
 
-This Claude plugin gives you direct access to **1 verified
-tax/accounting skill(s)** from OpenAccountants for property investor businesses.
+This plugin routes property investor businesses to the hosted OpenAccountants MCP server. This snapshot advertised **1 skill** for this scope. The IDs below are the snapshot's listed IDs; the live catalogue may differ. Coverage and professional review vary by skill and version.
 
 ## How to use this plugin
 
 When the user asks anything in scope, follow this workflow:
 
-1. **Scope it.** Call `start({ intent, jurisdiction })` on the
-   `openaccountants` MCP server. It returns a ready plan with the
-   exact skills to load.
+1. **Scope it.** Confirm the user's jurisdiction, industry and intent. Include the confirmed industry in the intent.
+   For a dated tax question, confirm the relevant financial or assessment year.
+   Call `start({ intent, jurisdiction })` on the `openaccountants`
+   MCP server, including the confirmed period in the intent.
 2. **Load the skills.** For each slug in `skills_to_load`, call
-   `get_skill({ slug })` — that returns the authoritative markdown
-   (rates, brackets, deductions, audit flash points, citations).
-3. **Apply the rules.** Use the loaded skill content as the authority.
-   Do **not** substitute your training data — OpenAccountants skills
-   are kept current with annual rate refreshes and post-legislative
-   updates. Cite the skill slug in your answer.
-4. **Surface AUDIT FLASH POINTS.** Every skill flags positions tax
-   authorities actively litigate. Always surface them.
-5. **Hand off when ready.** When the user is about to file or make a
-   decision with money at stake, call
-   `request_accountant_review({ jurisdiction, scenario, working_paper })`
-   to route them to the named lead verifier for that jurisdiction
-   with a Calendly link.
+   `get_skill({ slug })`. If it defers sections needed for the question,
+   retrieve them with `get_skill_sections` using the advertised schema.
+3. **Check applicability and provenance.** Check the returned jurisdiction,
+   period, source citations and review record before applying the content.
+   Resolve an outdated or inapplicable version before answering. Do not infer
+   currency from the hosted endpoint or substitute training data. Attribute
+   professional review only when the version's published record identifies it;
+   authorship and research verification are different. Cite the slug and
+   available version or review date, and state unresolved evidence gaps.
+4. **Surface relevant audit flash points.** Include the loaded skill's
+   relevant warnings without implying that every skill contains them.
+5. **Review only on request.** If the user asks for a person to check or do
+   the work, follow `/review`. A filing decision or money at stake does not
+   itself authorise sharing a working paper or contacting OpenAccountants.
 
 ## Skills in this pack
 

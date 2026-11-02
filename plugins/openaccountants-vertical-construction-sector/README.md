@@ -1,13 +1,11 @@
 # OpenAccountants — Construction Sector (vertical)
 
-Use this skill whenever a construction contractor, subcontractor, developer, or design-build firm asks about sector-specific tax / accounting. Trigger on phrases like "construction industry scheme", "CIS", "CIS deduction", "reverse charge construction VAT", "domestic reverse charge construction services", "developer's relief", "long-term contract", "percentage of completion", "completed contract",
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 1 verified skill(s) for this scope.
+This snapshot advertised **1 skill** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-vertical-construction-sector
+claude plugin install openaccountants-vertical-construction-sector --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -19,8 +17,10 @@ claude plugin marketplace add openaccountants/marketplace
 ## Slash commands
 
 - `/start` — scope a workflow and load the right skills
-- `/skills` — list every skill in scope
+- `/skills` — list this pack's industry skill and discover related skills on request
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 

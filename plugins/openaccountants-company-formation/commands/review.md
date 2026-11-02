@@ -1,14 +1,22 @@
 ---
 name: review
-description: Request a licensed accountant to review your working paper. Routes you to the named lead verifier with a Calendly booking link.
+description: Send a requested working-paper review to OpenAccountants after confirming the information to share and the required contact details.
 ---
 
-The user wants a licensed accountant to review their tax situation.
+Use this command when the user asks for a person to check or do the work. If they ask whether your own answer is right, recheck it yourself without sending a request.
 
-Call the `openaccountants` MCP `request_accountant_review` tool with:
-- jurisdiction: (ask the user — this plugin is cross-jurisdictional)
-- scenario: a 1-2 sentence summary of the user's situation
-- working_paper: if you have produced a worksheet, classified transactions, or computation in this conversation, paste it in full as markdown — the verifier needs to see the numbers, not just a text brief
-- contact_email + contact_name: ask the user
+Explain that the complete working paper and contact details will be saved with OpenAccountants and its team notified. Obtain the user's agreement to share that information with that destination. Ask for their email and any missing working-paper details; do not invent them.
 
-Then present the returned accountant name and Calendly URL to the user.
+Use the currently advertised `share_with_openaccountants` schema with:
+- `request_review`: `true`
+- `jurisdiction`: `the confirmed jurisdiction`
+- `scenario`: a brief description of the situation
+- `contact_email`: the email the user supplied for this request
+- `working_paper`: the complete markdown, including every line item and assumption, rather than a summary
+- `note`: an anonymised description of the request, with no names, amounts or personal information
+
+Include `contact_name` only if the user supplies it and agrees to share it. If the tool or its schema is unavailable, explain the limitation instead of substituting a tool or sending to another destination.
+
+The tool call is free. The professional work is paid, with scope and fee agreed on the call before work starts. Present the returned status and booking link; do not promise a named reviewer or a successful booking that the response does not confirm.
+
+Call at most once per user request. An uncertain send is not permission to retry; report the uncertainty and resolve the existing request before sending again.

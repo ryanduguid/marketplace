@@ -1,13 +1,11 @@
 # OpenAccountants — Company Formation
 
-Entity choice and incorporation across jurisdictions — sole prop vs LLC vs LTD vs S-corp vs C-corp, incorporation costs, ongoing compliance, tax election windows.
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 13 verified skill(s) for this scope.
+This snapshot advertised **13 skills** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-company-formation
+claude plugin install openaccountants-company-formation --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -21,6 +19,8 @@ claude plugin marketplace add openaccountants/marketplace
 - `/start` — scope a workflow and load the right skills
 - `/skills` — list every skill in scope
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 
@@ -37,7 +37,7 @@ claude plugin marketplace add openaccountants/marketplace
 - `singapore-formation`
 - `spain-formation`
 
-_…and 1 more — run `/skills` after installing._
+_The snapshot advertised 1 more; run `/skills` after installing to discover the current catalogue._
 
 ## License
 

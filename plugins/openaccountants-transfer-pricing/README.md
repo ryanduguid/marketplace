@@ -1,13 +1,11 @@
 # OpenAccountants — Transfer Pricing
 
-OECD-aligned transfer pricing rules — master file, local file, CbCR, intercompany loans, IP licensing, services. Covers documentation thresholds, methods, and audit defence across jurisdictions.
-
-**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 15 verified skill(s) for this scope.
+This snapshot advertised **15 skills** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants/openaccountants-transfer-pricing
+claude plugin install openaccountants-transfer-pricing --marketplace openaccountants/marketplace
 ```
 
 Or browse the full marketplace:
@@ -21,6 +19,8 @@ claude plugin marketplace add openaccountants/marketplace
 - `/start` — scope a workflow and load the right skills
 - `/skills` — list every skill in scope
 - `/review` — request a licensed accountant to review your work
+
+`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 
@@ -37,7 +37,7 @@ claude plugin marketplace add openaccountants/marketplace
 - `netherlands-transfer-pricing`
 - `singapore-transfer-pricing`
 
-_…and 3 more — run `/skills` after installing._
+_The snapshot advertised 3 more; run `/skills` after installing to discover the current catalogue._
 
 ## License
 
