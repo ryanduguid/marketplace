@@ -5,10 +5,10 @@ description: Front door — scope your tax question and get a ready plan with th
 
 The user wants to start a tax/accounting workflow.
 
-Confirm the user's jurisdiction, topic and what they want. Include the confirmed topic in the intent. For a dated tax question, confirm the financial or assessment year.
+If the user hasn't said what they want or which jurisdiction, ask them first.
 
 Then call `openaccountants` MCP `start` with:
-- intent: what they said, including the confirmed period when relevant
-- jurisdiction: the confirmed jurisdiction
+- intent: what they said (e.g. "VAT return", "tax filing", "formation", "find deductions")
+- jurisdiction: (ask the user — this plugin is cross-jurisdictional)
 
-Load each exact slug in `skills_to_load`. Retrieve any deferred sections needed for the question using the advertised `get_skill_sections` schema. Check the fetched version's jurisdiction, applicable period, sources and published review record before applying it. Cite the slug and available version or review date. Describe professional review as unconfirmed when the record does not identify it. Use `/review` only when the user asks for a person to check or do the work and agrees to share the specified information.
+Walk through the returned `skills_to_load` and call `get_skill` for each. Apply the rules. Cite the skill slug. Hand off to the verifier when they're ready.

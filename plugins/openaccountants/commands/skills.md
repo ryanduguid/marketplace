@@ -1,10 +1,8 @@
 ---
 name: skills
-description: List every OpenAccountants skill in scope for this plugin.
+description: List the OpenAccountants skills for a country, US state or subject.
 ---
 
-Call the `openaccountants` MCP `list_skills` tool with any jurisdiction or domain filters the user requested; explain which filters you used and that the live catalogue is not limited to this pack's listed IDs.
+Ask which country, US state or subject the user means, if they have not said.
 
-Follow each returned `next_offset` until pagination is complete. If a page fails or the result is incomplete, report that limit rather than present it as the full catalogue. Keep the same filters on every request.
-
-Format the result as a numbered list of slug + one-line description, grouped by category.
+Call the `openaccountants` server's `search_skills` tool with only `jurisdiction` (and `domain` if given) to list the skills. Show them as a numbered list of slug and one-line description.

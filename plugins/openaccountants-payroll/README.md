@@ -1,11 +1,13 @@
 # OpenAccountants — Payroll & Employer Taxes
 
-This snapshot advertised **14 skills** for this scope. The listed IDs are a snapshot; the live catalogue may differ. Check each fetched version's jurisdiction, applicable period, sources and published review record. Authorship or research verification does not establish professional sign-off.
+Employer payroll obligations across jurisdictions — withholding, social contributions, year-end reporting, employee vs contractor classification.
+
+**Powered by the [OpenAccountants](https://openaccountants.com) MCP server** — 14 verified skill(s) for this scope.
 
 ## Install
 
 ```bash
-claude plugin install openaccountants-payroll --marketplace openaccountants/marketplace
+claude plugin install openaccountants/openaccountants-payroll
 ```
 
 Or browse the full marketplace:
@@ -19,8 +21,6 @@ claude plugin marketplace add openaccountants/marketplace
 - `/start` — scope a workflow and load the right skills
 - `/skills` — list every skill in scope
 - `/review` — request a licensed accountant to review your work
-
-`/review` sends a request only after you agree to share the complete working paper and contact details with OpenAccountants. The tool call is free; professional work is paid, with scope and fee agreed before work starts. See the [privacy policy](https://www.openaccountants.com/privacy).
 
 ## Skills in this pack
 
@@ -37,7 +37,7 @@ claude plugin marketplace add openaccountants/marketplace
 - `portugal-payroll`
 - `spain-payroll`
 
-_The snapshot advertised 2 more; run `/skills` after installing to discover the current catalogue._
+_…and 2 more — run `/skills` after installing._
 
 ## License
 
