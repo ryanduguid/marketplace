@@ -1,5 +1,9 @@
 # OpenAccountants marketplace
 
+**Fork status**
+
+[![Fork quality gate](https://sonarcloud.io/api/project_badges/measure?project=ryanduguid_marketplace&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ryanduguid_marketplace)
+
 One Claude Code plugin: **openaccountants**. It connects Claude Code to the OpenAccountants server, which holds tax and accounting skills for 190+ jurisdictions. Each skill sets out the method for a tax task, names the official source for its figures, and says whether a licensed accountant has approved it.
 
 ```bash
